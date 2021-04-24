@@ -15,4 +15,4 @@
 |[![Compile-Linux](https://github.com/Bharathgopal/Emb-C/actions/workflows/Compile.yml/badge.svg)](https://github.com/Bharathgopal/Emb-C/actions/workflows/Compile.yml)|[![Cppcheck](https://github.com/Bharathgopal/Emb-C/actions/workflows/CodeQulaity.yml/badge.svg)](https://github.com/Bharathgopal/Emb-C/actions/workflows/CodeQulaity.yml)|
 
 ## Wiki Documentation
-* System [SETUP](https://github.com/Bharathgopal/Emb-C/wiki)
+* System [SETUP](https://github.com/sushmacharihar/Emb-C/wiki)
