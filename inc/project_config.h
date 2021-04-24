@@ -15,6 +15,7 @@
  * Macro Definitions
  */
 
+#define F_CPU 16000000UL
 #define LED_PORT (PORTB)    /**< LED Port Number */
 #define LED_PIN  (PORTB0)   /**< LED Pin number  */
 
