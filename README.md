@@ -1,8 +1,7 @@
 # Embedded C Programming Examples with Continuous Integration and Code Quality
+## LED Blinking 
 
-# LED Blinking 
-
-## In Action
+### In Action
 
 |ON|OFF|
 |:--:|:--:|
@@ -15,4 +14,4 @@
 |[![Compile-Linux](https://github.com/Bharathgopal/Emb-C/actions/workflows/Compile.yml/badge.svg)](https://github.com/Bharathgopal/Emb-C/actions/workflows/Compile.yml)|[![Cppcheck](https://github.com/Bharathgopal/Emb-C/actions/workflows/CodeQulaity.yml/badge.svg)](https://github.com/Bharathgopal/Emb-C/actions/workflows/CodeQulaity.yml)|
 
 ## Wiki Documentation
-* System [SETUP](https://github.com/sushmacharihar/Emb-C/wiki)
+* System [  SETUP](https://github.com/sushmacharihar/Emb-C/wiki)
