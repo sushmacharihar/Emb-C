@@ -1,7 +1,7 @@
 #ifndef __Activity1_H_
 #define __Activity1_H_
 /**
- * @file blinky.h
+ * @file Activity1.h
  * @author Sushma Harihar(sushmaharihar1839@gmail.com)
  * @brief Project to Blink an LED only when heat button is on and passenger is seated connected to AVR328 MCU GPIO Pin
  * @version 0.1
