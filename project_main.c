@@ -16,9 +16,9 @@
 
 int main(void)
 {
-	Activity1();
-	Activity2();
-	Activity3();
-	Activity4();
+	main1();
+	main2();
+	main3();
+	main4();
 	return 0;
 }
