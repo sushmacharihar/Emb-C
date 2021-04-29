@@ -39,7 +39,7 @@ void USARTWriteChar(char data)
 }
 
 
-int activity4(uint16_t temp1)
+int main4(uint16_t temp1)
 {
     USARTWriteChar(temp1);
     return 0;
