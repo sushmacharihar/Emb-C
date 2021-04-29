@@ -9,7 +9,7 @@ DDRD&=~(1<<PD0); //Clear Bit
 PORTD|=(1<<PD0); //Set Bit
 }
 
-int main(){
+int main1(){
     init();
     while(1)
     {
