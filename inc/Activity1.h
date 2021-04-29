@@ -1,5 +1,5 @@
-#ifndef __BLINKY_H_
-#define __BLINKY_H_
+#ifndef __Activity1_H_
+#define __Activity1_H_
 /**
  * @file blinky.h
  * @author Sushma Harihar(sushmaharihar1839@gmail.com)
@@ -39,5 +39,12 @@
  */
 void change_led_state(uint8_t state);
 
+/**
+ * @brief Define and setting pin values to 1
+ * 
+ * @param state Pin level to which the LED Pin should be set
+ */
+void init(void);
 
-#endif /** __BLINKY_H_ */
+
+#endif /** __Activity1_H_ */
