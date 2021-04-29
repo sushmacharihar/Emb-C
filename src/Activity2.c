@@ -19,7 +19,7 @@ uint8_t ReadADC(uint8_t ch)
     ADCSRA|=(1<<ADIF);
     return(ADC);
 }
-int activity2(void)
+int main2(void)
 {
     Init();
     ReadADC(0);
