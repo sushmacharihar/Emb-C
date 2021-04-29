@@ -16,13 +16,6 @@
  */
 #define LED_ON 	(0x01)			/**< LED state HIGH */
 #define LED_OFF	(0x00)			/**< LED state LOW */
-
-#define LED_ON_TIME (1000)
-#define LED_OFF_TIME (500)
-
-#define SWITCH_PRESS       /**< When switch is pressed then LED is on  */
-#define SWITCH_RELEASE     /**< When switch is released then LED is off */
-
 /**
  * Include files
  */ 
