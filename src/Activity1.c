@@ -4,10 +4,10 @@
 
 void init()
 {
-DDRB|=(1<<PB0); //Set B0=1 for LED
+DDRB|=(1<<PB0); //Set B0 pin to 1 
 
-DDRD&=~(1<<PD0); //Clear Bit
-PORTD|=(1<<PD0); //Set Bit
+DDRD&=~(1<<PD0); //Clear Bit of D0pin
+PORTD|=(1<<PD0); //Set D0 pin to 1
 }
 
 void change_led_state(uint8_t state)
@@ -21,11 +21,11 @@ int main1(){
     {
         if(!(PIND&(1<<PD0))) //switch press
         {
-            change_led_state(LED_ON); //LED on
+            change_led_state(LED_ON); 
         }
         else
         {
-            change_led_state(LED_OFF); //LED off
+            change_led_state(LED_OFF); 
         }
 
     }
