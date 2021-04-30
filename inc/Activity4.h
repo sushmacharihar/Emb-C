@@ -26,7 +26,7 @@ void USARTInit(uint16_t value);
  * @brief reads the data from UDR Register of the Receiver 
  * 
  */
-void USARTReadChar();
+char USARTReadChar();
 
 /**
  * @brief writes the data to UDR Resistor
