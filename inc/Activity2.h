@@ -52,5 +52,3 @@ uint8_t volatile OCR1A;
  */
 
 #endif // ACTIVITY2_H_
-
-#endif /* __Activity2_H__ */
