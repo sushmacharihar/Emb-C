@@ -18,7 +18,7 @@
  * 
  * 
  */
-void Init();
+void Change();
 
 /**
  * @brief unsigned 16-bit integer that contains the converted value which is stored in parts in ADCH & ADCL
