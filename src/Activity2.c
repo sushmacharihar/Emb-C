@@ -1,6 +1,4 @@
 #include <avr/io.h>
-#include <util/delay.h>
-#include <avr/io.h>
 #include "Activity2.h"
 #define F_CPU 16000000UL 
 
@@ -26,6 +24,5 @@ int main2(void)
 {
     Init();
     ReadADC(0);
-    _delay_ms(200);
     return 0;
 }
