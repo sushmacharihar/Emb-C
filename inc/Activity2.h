@@ -37,20 +37,19 @@ void Init();
  * @brief unsigned 16-bit integer that contains the converted value which is stored in parts in ADCH & ADCL
  * 
  */
-uint16_t volatile OCR1A;
+uint16_t volatile (OCR1A);
 
 /**
  * @brief unsigned 8-bit integer that contains the converted value 
  * 
  */
-uint8_t volatile OCR1A;
+uint8_t volatile (OCR1A);
 
 
 /**
  * @brief 
  * 
  */
-#define  OCR1A ADCL+(ADCH*256)
 
 #endif // ACTIVITY2_H_
 
