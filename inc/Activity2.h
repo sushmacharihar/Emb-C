@@ -33,4 +33,25 @@ void Init();
  */ 
  int main2();
 
+/**
+ * @brief unsigned 16-bit integer that contains the converted value which is stored in parts in ADCH & ADCL
+ * 
+ */
+uint16_t volatile ADCregister;
+
+/**
+ * @brief unsigned 8-bit integer that contains the converted value 
+ * 
+ */
+uint8_t volatile ADCregister;
+
+
+/**
+ * @brief 
+ * 
+ */
+#define  ADCregister ADCL+(ADCH*256)
+
+#endif // ACTIVITY2_H_
+
 #endif /* __Activity2_H__ */
