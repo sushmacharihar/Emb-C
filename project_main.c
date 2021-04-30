@@ -19,9 +19,13 @@
 unsigned volatile temp1;
 int main(void)
 {
+	//it calls the function to change the LED state
 	main1();
+	//it calls the function to convert Analog to digital
 	main2();
+	//it calls function that gives temperature values as given in table
 	main3();
+	//it calls functio that displays temperature values
 	main4(temp1);
 	return 0;
 }
