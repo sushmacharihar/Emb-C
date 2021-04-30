@@ -1,6 +1,7 @@
 #include <avr/io.h>
 #include <util/delay.h>
 #include "Activity4.h"
+#define F_CPU 16000000UL 
 
 void USARTInit(uint16_t value)
 {
