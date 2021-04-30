@@ -19,4 +19,11 @@
  */
 void Init();
 
+/**
+ * @brief temperature value to be set 
+ * 
+ * 
+ */
+int main3();
+
 #endif /* __Activity3_H__ */
