@@ -15,9 +15,9 @@ DDRB|=(1<<PB1);
 int main3()
 {
 Init();
-OCR1A=ADCR
+OCR1A=ADCR;
 
-    if (ADCR>=0 && ADCR<=200)
+    if(ADCR>=0 && ADCR<=200)
     {
         temp1=20;
         main4(temp1);
