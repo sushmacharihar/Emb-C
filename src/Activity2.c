@@ -2,6 +2,8 @@
 #include <util/delay.h>
 #include <avr/io.h>
 #include "Activity2.h"
+#define F_CPU 16000000UL 
+
 
 void Init()
 {
