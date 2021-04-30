@@ -21,11 +21,11 @@ int main1(){
     {
         if(!(PIND&(1<<PD0))) //switch press
         {
-            change_led_state(LED_ON) //LED on
+            change_led_state(LED_ON); //LED on
         }
         else
         {
-            change_led_state(LED_OFF) //LED off
+            change_led_state(LED_OFF); //LED off
         }
 
     }
