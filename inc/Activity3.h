@@ -24,13 +24,13 @@ void Init();
  * @brief unsigned 16-bit integer that contains the converted value which is stored in parts in ADCH & ADCL
  * 
  */
-uint16_t volatile OCR1A;
+uint16_t ADCR;
 
 /**
  * @brief unsigned 8-bit integer that contains the converted value 
  * 
  */
-uint8_t volatile OCR1A;
+uint8_t ADCR;
 
 /**
  * @brief temperature value to be set 
