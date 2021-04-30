@@ -10,7 +10,7 @@
  * @copyright Copyright (c) 2021
  * 
  */
-#include <util/delay.h>
+
 
 /**
  * @brief Function to set value
