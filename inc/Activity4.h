@@ -10,6 +10,7 @@
  * @copyright Copyright (c) 2021
  * 
  */
+#define F_CPU 16000000UL 
 
 /**
  * Function Definitions
