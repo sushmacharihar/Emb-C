@@ -16,23 +16,24 @@ DDRB|=(1<<PB1);
 int main3()
 {
 Init();
+OCR1A=ADCR
 
-    if (OCR1A>=0 && OCR1A<=200)
+    if (ADCR>=0 && ADCR<=200)
     {
         temp1=20;
         main4(temp1);
     }
-    else if(OCR1A>210 && OCR1A<500)
+    else if(ADCR>210 && ADCR<500)
     {
         temp1=25;
         main4(temp1);
     }
-    else if(OCR1A>510 && OCR1A<700)
+    else if(ADCR>510 && ADCR<700)
     {
         temp1=29;
         main4(temp1);
     }
-    else if(OCR1A>710 && OCR1A<1024)
+    else if(ADCR>710 && ADCR<1024)
     {
         temp1=33;
         main4(temp1);
