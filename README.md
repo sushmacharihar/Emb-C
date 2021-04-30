@@ -11,15 +11,15 @@
 
 |Diagram|
 |:--:|
-|(simulation/Activity2.jpg)|
+|![Diagram](simulation/Activity2.jpg)|
 
-###Activity3
+### Activity3
 
 |CRO display|
 |:--:|
-|(simulation/Activity3.jpg)|
+|![CRO display](simulation/Activity3.jpg)|
 
-###Activity4
+### Activity4
 
 |(simulation/CRO.jpg)|
 
