@@ -33,22 +33,4 @@ void Init();
  */ 
  int main2();
 
-/**
- * @brief unsigned 16-bit integer that contains the converted value which is stored in parts in ADCH & ADCL
- * 
- */
-uint16_t volatile OCR1A;
-
-/**
- * @brief unsigned 8-bit integer that contains the converted value 
- * 
- */
-uint8_t volatile OCR1A;
-
-
-/**
- * @brief 
- * 
- */
-
 #endif // ACTIVITY2_H_
