@@ -2,10 +2,10 @@
 #include <util/delay.h>
 #include "Activity4.h"
 
-void USARTInit(uint16_t ubrr_value)
+void USARTInit(uint16_t value)
 {
-    UBRR0L = ubrr_value;
-    UBRR0H = (ubrr_value>>8)&0x00ff;
+    UBRR0L = value;
+    UBRR0H = (value>>8)&0x00ff;
     UCSR0C = (1<<UMSEL00)|(1<<UCSZ01)|(1<<UCSZ00);
 
 
