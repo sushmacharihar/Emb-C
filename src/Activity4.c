@@ -1,5 +1,4 @@
 #include <avr/io.h>
-#include <util/delay.h>
 #include "Activity4.h"
 #define F_CPU 16000000UL 
 
@@ -35,7 +34,6 @@ void USARTWriteChar(char data)
 
     }
 
-   _delay_ms(200);
     UDR0 = data;
 }
 
