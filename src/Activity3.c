@@ -1,6 +1,8 @@
 #include <avr/io.h>
 #include <util/delay.h>
+#include "Activity2.h"
 #include "Activity3.h"
+#include "Activity4.h"
 
 unsigned volatile temp1;
 void Init()
