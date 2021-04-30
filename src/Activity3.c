@@ -29,7 +29,7 @@ Init();
         temp1=29;
         activity4(temp1);
     }
-    else if(ADCregister>710 && ADCregister<1024)
+    else if(OCR1A>710 && OCR1A<1024)
     {
         temp1=33;
         activity4(temp1);
