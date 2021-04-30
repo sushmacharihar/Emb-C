@@ -12,6 +12,8 @@
  */
 #define F_CPU 16000000UL
 
+#include <avr/io.h>
+
 /**
  * @brief Configuration init function initializes the values for ports
  * 
@@ -24,6 +26,6 @@ void Init()
  * 
  */
   
-  unit8_t ReadADC(unit8_t ch)
+  unit16_t ReadADC(unit8_t ch)
 
 #endif /* __Activity2_H__ */
