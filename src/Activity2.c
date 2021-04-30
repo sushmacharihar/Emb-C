@@ -3,7 +3,7 @@
 #define F_CPU 16000000UL 
 
 
-void Init()
+void Count()
 {
     ADMUX=(1<<REFS0);
     ADCSRA=(1<<ADEN)|(1<<ADPS0)|(1<<ADPS1)|(1<<ADPS2);
@@ -22,7 +22,7 @@ uint16_t ReadADC(uint8_t ch)
 }
 int main2(void)
 {
-    Init();
+    Count();
     ReadADC(0);
     return 0;
 }
