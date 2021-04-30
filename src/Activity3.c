@@ -4,10 +4,14 @@
 #include "Activity4.h"
 #define F_CPU 16000000UL 
 
+//temp1 is variable that contains temperature value
 unsigned volatile temp1;
+
 void Change()
 {
+// using 16-bit timer and counter1    
 TCCR1A|=(1<<COM1A1)|(1<<WGM11)|(1<<WGM10);
+//64 Prescaler
 TCCR1B|=(1<<WGM12)|(1<<CS11)|(1<<CS10);
 
 DDRB|=(1<<PB1);
@@ -16,7 +20,7 @@ int main3()
 {
 Change();
 OCR1A=ADCR;
-
+    //temperature conditions as given in table
     if(ADCR>=0 && ADCR<=200)
     {
         temp1=20;
