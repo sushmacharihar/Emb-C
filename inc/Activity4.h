@@ -34,5 +34,10 @@ void USARTReadChar();
  */
 void USARTWriteChar(char data);
 
+/**
+ * @brief calls function passes the temp1 value
+ * 
+ */
+int main4(uint16_t temp1);
 
 #endif /** __Activity4_H_ */
