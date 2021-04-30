@@ -19,13 +19,13 @@
  * 
  */
 
-void Init()
+void Init();
   
 /**
  * @brief Configuration this helps in conversion
  * 
  */
   
-  unit16_t ReadADC(unit8_t ch)
+  unit16_t ReadADC(unit8_t ch);
 
 #endif /* __Activity2_H__ */
