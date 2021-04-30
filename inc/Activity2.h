@@ -19,7 +19,7 @@
  * 
  */
 
-void Init();
+void Count();
   
 /**
  * @brief Configuration this helps in conversion
