@@ -3,6 +3,7 @@
 #include "Activity2.h"
 #include "Activity3.h"
 #include "Activity4.h"
+#define F_CPU 16000000UL 
 
 unsigned volatile temp1;
 void Init()
