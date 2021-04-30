@@ -9,19 +9,19 @@
 
 ### Activity2
 
-####Diagram
-
+|Diagram|
+|:--:|
 |(simulation/Activity2.jpg)|
 
 ###Activity3
 
-####CRO display
-
+|CRO display|
+|:--:|
 |(simulation/Activity3.jpg)|
 
 ###Activity4
 
-|(simulation/Activity4.jpg)|
+|(simulation/CRO.jpg)|
 
 #### CI and Code Quality
 
