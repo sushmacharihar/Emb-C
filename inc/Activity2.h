@@ -25,7 +25,12 @@ void Init();
  * @brief Configuration this helps in conversion
  * 
  */
-  
   unit16_t ReadADC(unit8_t ch);
+
+/**
+ * @brief calls the function
+ * 
+ */ 
+ int main2();
 
 #endif /* __Activity2_H__ */
