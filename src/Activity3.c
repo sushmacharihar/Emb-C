@@ -19,22 +19,22 @@ Init();
     if (OCR1A>=0 && OCR1A<=200)
     {
         temp1=20;
-        activity4(temp1);
+        main4(temp1);
     }
     else if(OCR1A>210 && OCR1A<500)
     {
         temp1=25;
-        activity4(temp1);
+        main4(temp1);
     }
     else if(OCR1A>510 && OCR1A<700)
     {
         temp1=29;
-        activity4(temp1);
+        main4(temp1);
     }
     else if(OCR1A>710 && OCR1A<1024)
     {
         temp1=33;
-        activity4(temp1);
+        main4(temp1);
     }
     return 0;
 }
