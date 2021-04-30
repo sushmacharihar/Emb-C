@@ -20,6 +20,6 @@ int main(void)
 	main1();
 	main2();
 	main3();
-	main4(uint16_t temp1);
+	main4(temp1);
 	return 0;
 }
