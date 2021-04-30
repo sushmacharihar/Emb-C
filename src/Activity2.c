@@ -8,7 +8,7 @@ void Init()
     ADCSRA=(1<<ADEN)|(1<<ADPS0)|(1<<ADPS1)|(1<<ADPS2);
 }
 
-uint8_t ReadADC(uint8_t ch)
+uint16_t ReadADC(uint8_t ch)
 {
 
     ADMUX&=0xf8;
