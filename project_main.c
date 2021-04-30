@@ -16,6 +16,7 @@
 #include <util/delay.h>
 #define F_CPU 16000000UL 
 
+unsigned volatile temp1;
 int main(void)
 {
 	main1();
