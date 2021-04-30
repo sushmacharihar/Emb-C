@@ -5,7 +5,7 @@
 #define F_CPU 16000000UL 
 
 unsigned volatile temp1;
-void Init()
+void Change()
 {
 TCCR1A|=(1<<COM1A1)|(1<<WGM11)|(1<<WGM10);
 TCCR1B|=(1<<WGM12)|(1<<CS11)|(1<<CS10);
@@ -14,7 +14,7 @@ DDRB|=(1<<PB1);
 }
 int main3()
 {
-Init();
+Change();
 OCR1A=ADCR;
 
     if(ADCR>=0 && ADCR<=200)
