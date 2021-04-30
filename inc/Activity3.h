@@ -27,12 +27,6 @@ void Init();
 uint16_t ADCR;
 
 /**
- * @brief unsigned 8-bit integer that contains the converted value 
- * 
- */
-uint8_t ADCR;
-
-/**
  * @brief temperature value to be set 
  * 
  * 
