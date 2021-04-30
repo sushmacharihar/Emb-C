@@ -39,5 +39,11 @@ void change_led_state(uint8_t state);
  */
 void init(void);
 
+/**
+ * @brief change the LED state
+ * 
+ */
+int main1();
+
 
 #endif /** __Activity1_H_ */
