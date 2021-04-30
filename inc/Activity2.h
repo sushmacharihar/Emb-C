@@ -25,7 +25,7 @@ void Init();
  * @brief Configuration this helps in conversion
  * 
  */
-  unit16_t ReadADC(unit8_t ch);
+  uint16_t ReadADC(uint8_t ch);
 
 /**
  * @brief calls the function
@@ -37,13 +37,13 @@ void Init();
  * @brief unsigned 16-bit integer that contains the converted value which is stored in parts in ADCH & ADCL
  * 
  */
-uint16_t volatile (OCR1A);
+uint16_t volatile OCR1A;
 
 /**
  * @brief unsigned 8-bit integer that contains the converted value 
  * 
  */
-uint8_t volatile (OCR1A);
+uint8_t volatile OCR1A;
 
 
 /**
