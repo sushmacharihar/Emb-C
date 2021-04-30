@@ -8,6 +8,7 @@
  * @copyright Copyright (c) 2021
  * 
  */
+#include <avr/io.h>
 #include "Activity1.h"
 #include "Activity2.h"
 #include "Activity3.h"
@@ -20,6 +21,6 @@ int main(void)
 	main1();
 	main2();
 	main3();
-	main4(temp1 uint16_t);
+	main4(temp1);
 	return 0;
 }
